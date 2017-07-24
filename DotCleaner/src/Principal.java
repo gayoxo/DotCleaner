@@ -107,7 +107,8 @@ public class Principal {
 						e.printStackTrace();
 					} 
 	             }
-	             Salida.add(DV);
+	             if (!Salida.contains(DV))
+	            	 Salida.add(DV);
 	            }
 			
 		} catch (Exception e) {
